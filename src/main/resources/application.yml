@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: none
+
+openai:
+  api-key: ${OPEN_API_KEY}
+#  api-key: ${MY_KEY}
