@@ -23,7 +23,7 @@ public class ChatController {
 
     @PostMapping("/chat")
     @ResponseBody
-    public String chat(@RequestParam("message") String message, Model model) {
+    public String chat(@RequestParam("message") String message) {
         try {
             String response = gptService.getGptResponse(message).get();
             return response;

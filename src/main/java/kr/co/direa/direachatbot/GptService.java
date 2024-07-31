@@ -21,7 +21,7 @@ public class GptService {
 
     public CompletableFuture<String> getGptResponse(String prompt) {
         JSONObject json = new JSONObject();
-        json.put("model", "ft:gpt-3.5-turbo-0125:personal::9nyirG5b");  // 튜닝한 모델 버전을 설정합니다.
+        json.put("model", "ft:gpt-3.5-turbo-0125:personal::9o1yZoGC");
 
         JSONArray messages = new JSONArray();
         JSONObject message = new JSONObject();
